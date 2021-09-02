@@ -420,8 +420,8 @@ background-color: #ffffff;
 }
 .company-profile-img{
 
-height: 720px;
-width: 750px;
+height: 700px;
+width: 600px;
 
 
 margin: 0px 30px 0px 0px;
@@ -431,8 +431,8 @@ float: left;
 
 .company-profile-img>img{
 
-height: 720px;
-width: 750px;
+height: 700px;
+width: 600px;
 margin: 0px;
 padding: 0px;
 
@@ -442,10 +442,10 @@ padding: 0px;
 .company-profile-text{
 
   height: 720px;
-width: 600px;
+width: 480px;
 background-color: #ffffff;
 float: left;
-padding: 100px 0px 0px 15px;
+padding: 100px 0px 0px 0px;
 margin: 0px;
 }
 
