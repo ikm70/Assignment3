@@ -468,6 +468,57 @@ font-weight: 700;
   font-size: 20px;
 }
 
+/*about us*/
+
+
+
+
+.about-header-container{
+
+width: 100%;
+margin: 0px;
+padding: 0px;
+
+
+}
+
+.about-header{
+
+height: 200px;
+  margin: 0px 105px 0px 105px;
+  background-image: url(assets/images/aboutus.png);
+}
+
+
+
+
+
+.text-container{
+width: 100%;
+  margin: 0px;
+  padding: ;
+height: auto;
+
+}
+
+
+.about-text{
+
+padding: 0px 100px;
+margin: 0px 105px;
+
+
+
+}
+.about-text>p{
+
+
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
 
 
 
