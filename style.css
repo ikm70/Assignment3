@@ -1,0 +1,531 @@
+
+@font-face {
+    font-family: "myfont";
+    src: url(assets/fonts/bangla/Noto\ Sans\ Bengali\ UI-Thin.ttf);
+}
+@font-face {
+    font-family: "myfont";
+    src: url(assets/fonts/inter/Inter-Medium.ttf);
+
+}
+@font-face {
+  font-family: "roboto";
+  src: url(assets/fonts/RobotoCondensed-Bold.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEEEEE;
+    font-family:'myfont', Noto Sans Bengali UI, ui-icon;
+
+}
+.topnav {
+    background-color: #37464E;
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+
+    
+    
+  }
+  .container-topnav{
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px 105px;
+    
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #BDBDBA;
+    text-align: center;
+    padding: 17px;
+    margin: 0px 5px 0px 0px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-sizing: border-box;
+  
+  }
+  
+  /* Change the color of links on hover */
+   .container-topnav> .my-bdjobs:hover{
+    background-color: rgb(4, 121, 23);
+    color:#FFFFFF;
+  }
+  .container-topnav> .e-learning:hover{
+    background-color: #AC016D;
+    color: #FFFFFF;
+  }
+  .container-topnav> .tender:hover{
+    background-color: #ffae00f8;
+    color: #FFFFFF;
+  }
+  .container-topnav> .employer:hover{
+    background-color: #2F64A3;
+   
+    color: #FFFFFF;
+  }
+
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #2F64A3;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+
+.social-container{
+  float: right;
+  display: block;
+  
+  margin: 0px;
+  padding:0px;
+
+}
+
+
+.social-container> a.youtube-icon:hover{
+
+  background-color: #ff0000;
+  color:  #FFFFFF;
+
+}
+.social-container> a.facebook-icon:hover{
+
+  background-color: #1197F6; 
+  color: #FFFFFF;
+
+}
+
+.social-container> a.google-icon:hover{
+
+  background-color: #34A853;
+  color: #FFFFFF;
+
+}
+
+.social-container> a.linkedin-icon:hover{
+
+  background-color: #0A66C2;
+  color: #FFFFFF;
+
+}
+.social-container> a.telephone-icon:hover{
+
+  background-color: #0ac241;
+  color: #FFFFFF;
+
+}
+
+
+/*image Slider */
+
+
+.image-slider-container{
+
+background-image: url(assets/images/deskphoto.jpg);
+    width:100%;
+    height: 500px;
+    margin: 0px;
+    padding: 60px;
+    box-sizing: border-box;
+
+    
+}
+
+.image-container{
+  height: auto;
+  width: auto;
+  margin: 0px 105px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+
+}
+
+.image-container> h1 {
+          color: #ffffff;
+          font-size: 60px;
+          font-weight: 700;
+          margin-bottom: 20px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-family: roboto,  Arial, sans-serif;
+        
+        }
+
+
+        .image-container> p{
+
+          color: #ffffff;
+          font-size: 20px;
+          font-weight: 400;
+          font-family: roboto,  Arial, sans-serif;
+   
+
+        }
+
+
+        .get-started{
+
+          height: 40px;
+          width: 150px;
+          background-color: #CDB30D;
+          font-size: 16px;
+          text-transform: uppercase;
+          font-family: roboto;
+          color: #ffffff;
+          border: none;
+          border-radius: 4x;
+
+
+        }
+
+        .portfolio{
+
+          height: 40px;
+          width: 150px;
+          background-color: #CDB30D;
+          font-size: 15px;
+          text-transform: uppercase;
+          font-family: roboto;
+          color: #ffffff;
+          border: none;
+          border-radius: 4x;
+
+
+        }
+
+        
+.portfolio:hover{
+
+    cursor: pointer;
+
+}
+.get-started:hover{
+
+  cursor: pointer;
+
+}
+
+
+
+
+/*Service Section Starts Here*/
+.service-container{
+      background-image: url(assets/images/hex-cover.jpg);
+      width: 100%;
+      margin: 0px;
+      height: 720px;
+      padding: 0px;
+      box-sizing: border-box;
+     
+}
+
+
+
+.service-grid{
+
+        margin: 0px 105px;
+        padding: 100px 0px
+
+
+}
+
+.service1{
+
+width: 530px;
+height: 250px;
+
+padding: 0px;
+margin-right: 25px;
+margin-bottom: 25px;
+float: left;
+
+border-radius: 6px;
+
+}
+
+.service1> h1{
+
+    padding: 0px;
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: roboto;
+    color: #ffffff;
+}
+
+.service1> p{
+
+  padding: 20px 0px 0px 0px;
+  margin: 0px;
+  font-weight: 700;
+  font-family:monospace;
+  color: #989898;
+  font-size: 20px;
+}
+
+
+
+.service3:hover{
+
+  background-color: #CCB20C;
+}
+.service4:hover{
+
+  background-color: #CCB20C;
+}
+.service5:hover{
+
+  background-color: #CCB20C;
+}
+.service6:hover{
+
+  background-color: #CCB20C;
+}
+.service7:hover{
+
+  background-color: #CCB20C;
+}
+
+.service2{
+
+width: 250px;
+height: 250px;
+
+padding: 0px;
+margin-right: 25px;
+margin-bottom: 25px;
+float: left;
+background-color: #CCB20C;
+border-radius: 6px;
+  
+  
+  }
+  .service3{
+
+  width: 250px;
+  height: 250px;
+
+  padding: 0px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  float: left;
+  background-color: #1A1A1A;
+  border-radius: 6px;
+  }
+
+
+
+
+
+
+
+
+
+  .service4{
+
+    width: 250px;
+    height: 250px;
+ 
+    padding: 0px;
+    margin-right: 28px;
+    margin-bottom: 25px;
+    float: left;
+    background-color: #1A1A1A;
+    border-radius: 6px;
+    
+    
+    
+    }
+    .service5{
+    
+    width: 250px;
+    height: 250px;
+   
+    padding: 0px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    float: left;
+    background-color: #1A1A1A;
+    border-radius: 6px;
+      
+      
+      
+      }
+      .service6{
+    
+      width: 250px;
+      height: 250px;
+     
+      padding: 0px;
+      margin-right: 25px;
+      margin-bottom: 25px;
+      float: left;
+      background-color: #1A1A1A;
+      border-radius: 6px;
+      }
+    
+      .service7{
+    
+        width: 250px;
+        height:250px;
+        
+        padding: 0px;
+     box-sizing: border-box;
+        margin-bottom: 25px;
+        float: left;
+        background-color: #1A1A1A;
+        border-radius: 6px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer style starts Here*/
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #263238;
+    margin: 0px;
+    padding-top: 10px;
+    overflow: hidden;
+    
+    }
+  
+  .footer-container{
+  margin: 20px 105px 0px 105px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0px;
+  
+  }
+  
+  .footer-container> h2{
+  margin: 0px;
+  padding: 0px;
+  
+  }
+  
+  .footer-elements> ul{
+  
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+  }
+  
+  .footer-elements>ul li{
+  
+  list-style: none;
+  margin: 10px 0px;
+  line-height: 20px;
+  
+  }
+  
+  .footer-elements> ul li a{
+  
+  text-decoration: none;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 14px;
+  
+  
+  }
+  .play-button{
+  
+    width: 152px;
+    height: 42px;
+    margin: 0px;
+    padding: 0px;
+    
+  
+  }
+  
+  .play-button> a{
+    margin: 0px;
+    padding: 0px;
+  
+  }
+  .play-button> a img{
+  
+    height: 38px;
+    width: 148px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+  }
+  .copyright-area{
+  
+  width: 100%;
+    /*text-align: center;
+       color: #92989b; */
+       color: #ffffff;
+       font-size: 16px;
+      margin: 20px 105px 20px 105px;
+      overflow: hidden;
+     
+  }
+  
+
+.copyright-container{
+
+    border-top: 1px solid gray;
+    background-color:#263238 ;
+    font-size: 14px;
+    float: center;
+    height: 50px;
+    line-height: 34px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+ 
+    .copyright-container> a{
+
+        display: inline-block; font-size: inherit;
+        color: #0be6af; 
+        visibility: visible; 
+        z-index:99;
+        opacity:1;
+        margin: 0px;
+    
+        
+    }
+
+
+
