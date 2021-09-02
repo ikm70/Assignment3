@@ -16,7 +16,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #EEEEEE;
+    background-color: #ffffff;
     font-family:'myfont', Noto Sans Bengali UI, ui-icon;
 
 }
@@ -402,6 +402,76 @@ border-radius: 6px;
 
 
 
+/*company profile*/
+
+
+
+.company-overview-container{
+margin: 0%;
+padding: 0px;
+background-color: #ffffff;
+
+}
+.company-overview{
+margin: 0px 105px 0px 105px;
+background-color: #ffffff;
+
+
+}
+.company-profile-img{
+
+height: 720px;
+width: 750px;
+
+
+margin: 0px 30px 0px 0px;
+float: left;
+
+}
+
+.company-profile-img>img{
+
+height: 720px;
+width: 750px;
+margin: 0px;
+padding: 0px;
+
+
+}
+
+.company-profile-text{
+
+  height: 720px;
+width: 600px;
+background-color: #ffffff;
+float: left;
+padding: 100px 0px 0px 15px;
+margin: 0px;
+}
+
+
+
+.company-profile-text>h1{
+
+font-size: 50px;
+font-weight: 800;
+font-family: roboto;
+text-transform: uppercase;
+line-height: 1.2em;
+
+
+}
+.company-profile-text>p{
+font-weight: 700;
+  font-family:monospace;
+  color: #989898;
+  font-size: 25px;
+}
+
+
+
+
+
 
 
 
@@ -426,7 +496,7 @@ border-radius: 6px;
     }
   
   .footer-container{
-  margin: 20px 105px 0px 105px;
+  margin: 100px 105px 50px 105px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 0px;
